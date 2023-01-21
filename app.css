@@ -1,0 +1,46 @@
+#container{
+    top: 100px;
+    position: relative;
+    background-color: green;
+    width: 500px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    left:50%;
+    transform: translateX(-100px);
+}
+
+.card{
+    position: absolute;
+    
+}
+
+body{
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#btn{
+    position: absolute;
+    left: 50%;
+    border: 2px solid gold;
+    background-color: maroon;
+    color: gold;
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    transform:translateX(-50px);
+}
+
+#btn:hover{
+    background-color: rgb(97, 1, 1);
+    border-color: goldenrod;
+    
+}
+
+#btn:active{
+    border: 4px solid goldenrod;
+}

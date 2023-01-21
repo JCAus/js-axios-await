@@ -1,0 +1,42 @@
+.pokeCard{
+    width:250px;
+    height: 350px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 5px solid purple;
+    background-color: plum;
+    display: inline-flex;
+    
+}
+
+body{
+    display: flex;
+    flex-direction:row;
+}
+
+.pokePic{
+    position: relative;
+    height: 150px;
+    width:auto;
+}
+
+.nameDiv{
+    left: 50%;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+
+.imgDiv{
+    position: relative;
+    left: 50%;
+    transform: translateX(-110px);
+    top: 50px;
+    height:150px;
+}
+
+.bioDiv{
+    right:50%;
+    position: relative;
+    top: 200px;
+}
